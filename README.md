@@ -1,16 +1,16 @@
 # portfolio
-The Repository
+# The Repository
 This repository is about my portfolio.
 
-##Installation:
+## Installation:
 This project uses HTML and CSS.
 The code editor used here is VScode. 
 
-##Usage:
+## Usage:
 Clean and informative portfolio so that one can learn about the developer, find contact information, and follow links to projects and repositories.
 
-##Credits:
+## Credits:
 UNC Chapelhill
 
-##License
+## License
 Copyright (c). All rights reserved.
