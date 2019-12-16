@@ -1,0 +1,135 @@
+
+/*.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}*/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    float: right;
+}
+
+.nav-link {
+    color:#000000;
+}
+.heading {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
+}
+.header-heading{
+    float: left;
+    width: 30%;
+    text-align: center;
+    color:#ffffff; 
+    background: #4aaaa5;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    margin-top: 20px;
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.main{
+    background-color: #dddddd;
+    flex: 1 0 auto;
+    padding-top: 20px;
+}
+
+.content-heading {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bodyHeading {
+    padding: 10px;
+    border-bottom: 2px solid  #dddddd;
+    margin-bottom: 20px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+.panel-body {
+    margin-bottom: 20px;    
+}
+.panel-body p {
+    line-height: 2rem;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+.btn {
+    margin: 10px;
+    background-color: #4aaaa5;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #ffffff;
+    margin-left: 0;
+}
+
+.portfolioImage {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.portfolioImageTitle {
+    color:#ffffff;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 15px;
+    margin-top: 125px;
+} 
+
+.image1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFNbgOE8OrR6KSRE6vP0VyRRut-CljK3WVFwy-7fezPdV8m6ZIpA&s); 
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-BzHV3nDah-vWzBAmiYLqMX-bPCVOh4opWOu_pGLbwSzCvhiq&s);
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3cFfB9zkmLfewbDAD3eAV1wfAenli1P6HUTGqpVYj-Do0IH6Q&s);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(https://www.sphereinc.com/wp-content/uploads/2016/02/Using-Node.js-to-Code-in-a-Functional-Style.jpg);
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_Pn222c_nxbdL6rEfrRyA1uQGaFIrsR3oHgzhivukjfnFrV7&s);
+    background-size: cover;
+}
