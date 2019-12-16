@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Contact</title>
+        <!-- Linking Bootstarp -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- Linking CSS -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -11,9 +12,11 @@
         <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'> -->
     </head>
     <body id="contact">
+        <!-- Header for contact form -->
         <header>
             <div class="heading">
                 <h2 class="header-heading">Rashmi Sharma</h2>
+                <!-- Navigation of Portfolio -->
                 <nav class="nav justify-content-end">
                     <a class="nav-link" href="index.html">About</a>
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -27,25 +30,29 @@
                 <div class="bodyHeading">
                     <h2 class="content-heading">Contact</h2>
                 </div>
-                
+                <!-- Contact form starts here -->
                 <form>
                     <div class="form-group">
-                    <label for="inputName">Name</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="John Smith" required>
+                        <!-- Name is a required field -->
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="John Smith" required>
                     </div>
                     <div class="form-group">
+                        <!-- Email is a required field -->
                         <label for="inputEmail">Email</label>
                         <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com" required>
                     </div>
                     <div class="form-group">
+                        <!-- Message is a required field -->
                         <label for="inputTextarea">Message</label>
                         <textarea class="form-control" id="inputTextarea" rows="4" required></textarea>
                     </div>
+                    <!-- Validate before submit -->
                     <button type="submit" class="btn">Submit</button>
                 </form>
             </div>
         </section>
-
+        <!-- Sticky Footer -->
         <footer class="footer">
             <p>copyright</p>
         </footer>
