@@ -72,13 +72,14 @@ body {
 }
 
 .img {
-    height: 200px;
+    height: 250px;
     width: 200px;
     float: left;
     margin: 10px;
 }
 
 .panel-body {
+    padding-top: 20px;
     margin-bottom: 20px;    
 }
 .panel-body p {
@@ -107,6 +108,8 @@ body {
     padding-right: 25px;
     color: #ffffff;
     margin-left: 0;
+    border: 1px solid;
+    box-shadow: 5px 10px #b9b7b7;
 }
 
 /* Styles for only portfolio page goes down */
