@@ -53,7 +53,9 @@ body {
     padding-bottom: 20px;
 }
 .main{
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
+    background-image: url(../images/criss-cross.png);
+    background-repeat: repeat;
     flex: 1 0 auto;
     padding-top: 20px;
 }
